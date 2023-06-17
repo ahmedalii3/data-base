@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Doctor Appointment Booking</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="home.css\h.css">
+    <title>ALPT Clinic</title>
+    <link rel="stylesheet" href="home.css/style.css">
+    <link rel="stylesheet" href="home.css\book.css">
+    <link rel="stylesheet" href="home.css\s.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="D:\b3bsa\home.css\h.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">ALPT</a>
+        <nav class="navigation">
+            <a href="D:\b3bsa\home.html">Home</a>
+            <a href="D:\b3bsa\service.html">Services</a>
+            <a href="D:\b3bsa\comtact us.html">Contact us</a>
+            <a href="index (3).html">About us</a>
+            <a href="D:\b3bsa\book.html">Book</a>
+            <a href="D:\b3bsa\login.html">login</a>
+            <a href="D:\b3bsa\table.html">My appointments</a>
+            
+        </nav>
+
+    </header>
+    <div class="container-2">
+        <div class="photo-container">
+            <img src="D:\b3bsa\images\360_F_260797051_YKfZOTIhG9xWGaJKDAD0km5EhyPa4YCS.jpg" alt="Physiotherapy Photo">
+        </div>
+
+        <div class="booking-form">
+            <div id = "enwan">
+            <h1>Doctor Appointment Booking</h1>
+            </div>
+            <form id="appointmentForm">
+                <div class="name-container">
+                    <div>
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" required>
+                    </div>
+                    <div>
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" required>
+                    </div>
+                </div>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" required>
+
+                <div class="date-container">
+                    <label for="day"><b>Day:</b></label>
+                    <input type="number" id="day" min="1" max="31" required>
+
+                    <label for="month"><b>Month:</b></label>
+                    <input type="number" id="month" min="1" max="12" required>
+
+                    <label for="year"><b>Year:</b></label>
+                    <input type="number" id="year" min="2023" max="2030" required>
+                </div>
+
+                <label for="section">Section:</label>
+                <select id="section" required>
+                    <optgroup label="Physiotherapy">
+                        <option value="Physiotherapy - Sports Injury">Sports Injury</option>
+                        <option value="Physiotherapy - Rehabilitation">Rehabilitation</option>
+                        <option value="Physiotherapy - Pain Management">Pain Management</option>
+                    </optgroup>
+                </select>
+
+                <label for="doctorName">Doctor's Name:</label>
+                <input type="text" id="doctorName" required>
+
+                <button type="submit">Book Appointment</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
